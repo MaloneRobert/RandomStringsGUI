@@ -18,6 +18,7 @@ public class RepaintOnClick implements MouseListener {
       source.repaint();  // Call repaint() on the Component that was clicked.
    }
 
+   //Empty methods to fulfill the implementation of MouseListener
    public void mouseClicked(MouseEvent evt) { }
    public void mouseReleased(MouseEvent evt) { }
    public void mouseEntered(MouseEvent evt) { }
